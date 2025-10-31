@@ -90,4 +90,3 @@ async def verify_user(user_id: str):
             <p>Direct Link: <a href="{verify_url}" target="_blank">{verify_url}</a></p>
         """)
     return HTMLResponse("<h2>User not found</h2>")
-oihoihoi
